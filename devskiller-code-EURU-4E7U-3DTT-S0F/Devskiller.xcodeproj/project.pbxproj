@@ -3,18 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		48D69BC72514ECC700DD96AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BC62514ECC700DD96AA /* AppDelegate.swift */; };
 		48D69BC92514ECC700DD96AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BC82514ECC700DD96AA /* SceneDelegate.swift */; };
-		48D69BCB2514ECC700DD96AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BCA2514ECC700DD96AA /* ViewController.swift */; };
+		48D69BCB2514ECC700DD96AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BCA2514ECC700DD96AA /* HomeViewController.swift */; };
 		48D69BD12514ECC700DD96AA /* Devskiller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BCF2514ECC700DD96AA /* Devskiller.xcdatamodeld */; };
 		48D69BD32514ECC800DD96AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D69BD22514ECC800DD96AA /* Assets.xcassets */; };
 		48D69BD62514ECC800DD96AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D69BD42514ECC800DD96AA /* LaunchScreen.storyboard */; };
 		48D69BE12514ECC800DD96AA /* DevskillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BE02514ECC800DD96AA /* DevskillerTests.swift */; };
 		48D69BEC2514ECC800DD96AA /* DevskillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BEB2514ECC800DD96AA /* DevskillerUITests.swift */; };
+		98A8765A2990423E0013B0DD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A876592990423E0013B0DD /* HomeView.swift */; };
+		98A8765E299044190013B0DD /* LaunchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8765D299044190013B0DD /* LaunchTableViewCell.swift */; };
+		98A8766029908CD00013B0DD /* CompanyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8765F29908CD00013B0DD /* CompanyView.swift */; };
+		98A87662299096C20013B0DD /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A87661299096C20013B0DD /* CompanyTableViewCell.swift */; };
+		98A8766429915E570013B0DD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8766329915E570013B0DD /* Networking.swift */; };
+		98A8766629916ADF0013B0DD /* CompanyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8766529916ADF0013B0DD /* CompanyInfo.swift */; };
+		98A8766829916B040013B0DD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8766729916B040013B0DD /* HomeViewModel.swift */; };
+		98A8766A2991A2160013B0DD /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A876692991A2160013B0DD /* Launch.swift */; };
+		98A8766D2991A6D20013B0DD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 98A8766C2991A6D20013B0DD /* Kingfisher */; };
+		98A8766F2991B2520013B0DD /* RocketInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8766E2991B2520013B0DD /* RocketInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,7 @@
 		48D69BC32514ECC700DD96AA /* Devskiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devskiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D69BC62514ECC700DD96AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48D69BC82514ECC700DD96AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48D69BCA2514ECC700DD96AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48D69BCA2514ECC700DD96AA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		48D69BD02514ECC700DD96AA /* Devskiller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devskiller.xcdatamodel; sourceTree = "<group>"; };
 		48D69BD22514ECC800DD96AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48D69BD52514ECC800DD96AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,15 @@
 		48D69BE72514ECC800DD96AA /* DevskillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevskillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D69BEB2514ECC800DD96AA /* DevskillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevskillerUITests.swift; sourceTree = "<group>"; };
 		48D69BED2514ECC800DD96AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A876592990423E0013B0DD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		98A8765D299044190013B0DD /* LaunchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchTableViewCell.swift; sourceTree = "<group>"; };
+		98A8765F29908CD00013B0DD /* CompanyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyView.swift; sourceTree = "<group>"; };
+		98A87661299096C20013B0DD /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
+		98A8766329915E570013B0DD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		98A8766529916ADF0013B0DD /* CompanyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInfo.swift; sourceTree = "<group>"; };
+		98A8766729916B040013B0DD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		98A876692991A2160013B0DD /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		98A8766E2991B2520013B0DD /* RocketInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A8766D2991A6D20013B0DD /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +119,11 @@
 		48D69BC52514ECC700DD96AA /* Devskiller */ = {
 			isa = PBXGroup;
 			children = (
+				98A87656299041E80013B0DD /* ViewControllers */,
+				98A87655299041DE0013B0DD /* Network */,
+				98A87654299041C80013B0DD /* Models */,
 				48D69BC62514ECC700DD96AA /* AppDelegate.swift */,
 				48D69BC82514ECC700DD96AA /* SceneDelegate.swift */,
-				48D69BCA2514ECC700DD96AA /* ViewController.swift */,
 				48D69BD22514ECC800DD96AA /* Assets.xcassets */,
 				48D69BD42514ECC800DD96AA /* LaunchScreen.storyboard */,
 				48D69BD72514ECC800DD96AA /* Info.plist */,
@@ -128,6 +150,53 @@
 			path = DevskillerUITests;
 			sourceTree = "<group>";
 		};
+		98A87654299041C80013B0DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98A8766529916ADF0013B0DD /* CompanyInfo.swift */,
+				98A876692991A2160013B0DD /* Launch.swift */,
+				98A8766E2991B2520013B0DD /* RocketInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98A87655299041DE0013B0DD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				98A8766329915E570013B0DD /* Networking.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		98A87656299041E80013B0DD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				98A876572990420F0013B0DD /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		98A876572990420F0013B0DD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				98A876582990422B0013B0DD /* View */,
+				48D69BCA2514ECC700DD96AA /* HomeViewController.swift */,
+				98A8766729916B040013B0DD /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		98A876582990422B0013B0DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98A876592990423E0013B0DD /* HomeView.swift */,
+				98A87661299096C20013B0DD /* CompanyTableViewCell.swift */,
+				98A8765D299044190013B0DD /* LaunchTableViewCell.swift */,
+				98A8765F29908CD00013B0DD /* CompanyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +213,9 @@
 			dependencies = (
 			);
 			name = Devskiller;
+			packageProductDependencies = (
+				98A8766C2991A6D20013B0DD /* Kingfisher */,
+			);
 			productName = Devskiller;
 			productReference = 48D69BC32514ECC700DD96AA /* Devskiller.app */;
 			productType = "com.apple.product-type.application";
@@ -216,6 +288,9 @@
 				Base,
 			);
 			mainGroup = 48D69BBA2514ECC700DD96AA;
+			packageReferences = (
+				98A8766B2991A6D20013B0DD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 48D69BC42514ECC700DD96AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,9 +334,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				48D69BD12514ECC700DD96AA /* Devskiller.xcdatamodeld in Sources */,
-				48D69BCB2514ECC700DD96AA /* ViewController.swift in Sources */,
+				98A8766829916B040013B0DD /* HomeViewModel.swift in Sources */,
+				98A8766629916ADF0013B0DD /* CompanyInfo.swift in Sources */,
+				48D69BCB2514ECC700DD96AA /* HomeViewController.swift in Sources */,
+				98A8766029908CD00013B0DD /* CompanyView.swift in Sources */,
+				98A8766429915E570013B0DD /* Networking.swift in Sources */,
+				98A8766F2991B2520013B0DD /* RocketInfo.swift in Sources */,
 				48D69BC72514ECC700DD96AA /* AppDelegate.swift in Sources */,
+				98A8765A2990423E0013B0DD /* HomeView.swift in Sources */,
 				48D69BC92514ECC700DD96AA /* SceneDelegate.swift in Sources */,
+				98A8765E299044190013B0DD /* LaunchTableViewCell.swift in Sources */,
+				98A8766A2991A2160013B0DD /* Launch.swift in Sources */,
+				98A87662299096C20013B0DD /* CompanyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +666,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98A8766B2991A6D20013B0DD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98A8766C2991A6D20013B0DD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98A8766B2991A6D20013B0DD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		48D69BCF2514ECC700DD96AA /* Devskiller.xcdatamodeld */ = {
